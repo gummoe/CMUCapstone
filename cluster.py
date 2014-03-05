@@ -22,23 +22,17 @@ table=[[1,2,2.7,],
 	   [10,2,3.2],
 	   [11,6,0.0]]
 nodeNum=input('Enter the Node Number to find cluster and cost:')
-print(nodeNum)
 intNodeNum=int(nodeNum)
-#clusterNo=0
 for row in table:
     if(row[0]==intNodeNum):
-	    print("Inside if")
 	    clusterNo=row[1]
 clusterNodeList=[];
-print(clusterNo)
-
 for row in TSPtable:
 	if(int(row[3])==intNodeNum):
 		costofNodeOutsideCluster=float(row[5]) # cost of node outside cluster.
 for row in table:
     if(row[1]==clusterNo):
         clusterNodeList.append(row[0]) # Find all nodes in a cluster.
-print(" Entry node in cluster is"+str(clusterNodeList[0]))
 if(int(clusterNodeList[0])==intNodeNum):
 	e=0
 else:
@@ -47,54 +41,31 @@ for row in TSPtable:
 	if(row[3]==clusterNodeList[0]):
 		costOfEntryToCluster=row[5]
 print("**** Cost of Entry to Cluster is ******"+str(costOfEntryToCluster))
-print(clusterNodeList)
 ClusterLessThanMcount=0
 costOfClusterNodeList=[];
 for row in clusterNodeList:
-    for row1 in TSPtable:
-	    if(int(row)==row1[3]):
-		    print("row1[5] value"+str(row1[5]))
+	for row1 in TSPtable:
+		if(int(row)==row1[3]):
 		    costOfClusterNode=row1[5] # cost of the node in the cluster
-		    print(costOfClusterNode)
-			#costOfClusterNode=row1[5]
-            #print(costOfClusterNode)
 		    costOfClusterNodeList.append(costOfClusterNode) #append cost of all nodes in cluster
-            #print(costOfClusterNodeList)
 		    if(costOfClusterNode<0.1):
-			    ClusterLessThanMcount+=1 # no of nodes in cluster with cost less than m
-			#if(costOfClusterNode<0.1):
-			#if(costOfClusterNode<0.1):
-			    #ClusterLessThanMcount+=1
-
-print(ClusterLessThanMcount)
-print(costOfClusterNodeList)
+			    ClusterLessThanMcount+=1
 lessThanMcount=0
 for row in TSPtable:
     if row[5] < 0.1:
 	    lessThanMcount+=1 # No of nodes with cost less than 0.1
-print("count of nodes less than m is "+str(lessThanMcount))
+print("*******count of nodes less than m is*********"+str(lessThanMcount))
 max=TSPtable[0][1]
 for row in TSPtable:
     if(row[1] > max):
 	    max=row[1]     #find the node with maximum number.
-#print(max)
 nodesInSequence=max-lessThanMcount  # no of nodes with cost more than 0.1
 noofRowsinMatrix=len(TSPtable)
 splitCostFromLastNodeToOrigin=TSPtable[noofRowsinMatrix-1][5]/nodesInSequence   # split cost from last node to origin.
-print("Split Cost from last node to origin is "+str(splitCostFromLastNodeToOrigin))
+print("********Split Cost from last node to origin is********"+str(splitCostFromLastNodeToOrigin))
 sum=0.0
-print(costOfClusterNodeList)
 for row in costOfClusterNodeList:
     sum+=row
-print(sum)
-#costOfNode=sum/(len(costOfClusterNodeList)-ClusterLessThanMcount) # cost of node in a cluster
 costOfNode=(e*costofNodeOutsideCluster)+(float(costOfEntryToCluster)/(len(costOfClusterNodeList)-ClusterLessThanMcount))
-print(str(e*costofNodeOutsideCluster))
-print(str((float(costOfEntryToCluster)/(len(costOfClusterNodeList)-ClusterLessThanMcount))))
-print("**** costOfNode is ******"+str(costOfNode))
 nodeCostPerCase=costOfNode+splitCostFromLastNodeToOrigin # cost per case of node.
-print(nodeCostPerCase)
-
-		
-#def noOfNodesGreaterThanM
-
+print("*******Node cost per case is*****"+str(nodeCostPerCase))
