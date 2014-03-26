@@ -1,0 +1,39 @@
+{{extend 'modlayout.html'}}
+<h1>CMU Capstone Project Summary</h1>
+<h2>Team Members: Sean Qian, Adrianto, Aimin Zhang, Vignesh Deveraj, Yunlu Cao, Benjamin Gummoe</h2></br></br>
+
+<div id="abouttext">
+<h3>Introduction</h3></br>
+<p>Our project is a joint venture between the Heinz School of Information Systems and Management, the Heinz School of
+    Public Policy and Management, and the Center for Adaptive Design at the United States Census Bureau. The primary
+    scope of the project is to assist the CAD with the development of tools that will help them to estimate the total
+    cost of completing a U.S. Census survey for a household given a set of households and a travel point of origination.
+    Our ultimate aim, however, is to develop a tool that might accomplish this in real time, given changes in the survey
+    taker’s schedule, the unavailability of a certain household, traffic, etc. We have divided our project into three
+    primary phases.</p></br>
+
+<h3>Phase I</h3></br>
+<p>This phase lays the groundwork for the following two phases and is concerned with the core goal of our work with CAD.
+    In this phase, we will develop an algorithm and data model that estimates the cost per household associated with a
+    survey taker visiting that household and conducting a survey. So far, we envision this algorithm will include the
+    clustering of household locations across which travel and time costs will be distributed. Solving for the most
+    efficient route will rely on an application of the Travelling Salesperson Problem solution, given values associated
+    with cost per mile and cost in time. To promote usability and platform agnosticism, we envision the final
+    deliverable to exist as a web-based tool to which a user may supply a set of household locations and a point of
+    origination.</p></br>
+
+<h3>Phase II</h3></br>
+<p>This phase lays the groundwork for the final phase and is concerned primarily with the development and/or testing of a
+tool for gathering accurate GPS location data given a user’s location that can then be used in the next phase. Testing
+the collection of GPS data will involve field testing of tools to identify optimal sampling rate counterbalanced by
+optimal battery life. Once we have identified a feasible method of GPS location collection, we intend to method as the
+core input of the adaptive system detailed in the next phase.</p></br>
+
+<h3>Phase III</h3></br>
+This final phase is concerned with synthesizing the previous two phases to deliver an adaptive tool that can provide the
+least costly set of households to visit in the most efficient order given a point of origination to a user. We envision
+this phase of the project to involve the development of a mobile application that finds the user’s GPS coordinates and
+presents a list of households to visit. In order to improve data collection for CAD, we envision that this application
+will also calculate the length of time it takes to complete a survey at a given household, calculate real travel time,
+etc. This data would be made available to CAD in a centralized database that the organization could use for analysis.</p></br></br></br>
+</div>

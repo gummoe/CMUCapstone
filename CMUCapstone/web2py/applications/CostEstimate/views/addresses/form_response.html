@@ -1,0 +1,49 @@
+{{extend 'modlayout.html'}}
+<div id="response">
+    <div id="timematrix">
+        <h1>Time Matrix</h1>
+        {{=duration_matrix}}
+    </div>
+    <div id="distancematrix">
+        <h1>Distance Matrix</h1>
+        {{=distance_matrix}}
+    </div>
+    <div id="table">
+        <h1>Cost Estimation Table</h1>
+        <table>
+            <thead>
+                <td>Address</td>
+                <td>Cluster</td>
+                <td>Estimated Cost</td>
+            </thead>
+            <tr>
+                <td>Address #1</td>
+                <td>2</td>
+                <td>$45</td>
+            </tr>
+            <tr>
+                <td>Address #2</td>
+                <td>2</td>
+                <td>$35</td>
+            </tr>
+            <tr>
+                <td>Address #3</td>
+                <td>4</td>
+                <td>$11</td>
+            </tr>
+            <tr>
+                <td>Address #4</td>
+                <td>1</td>
+                <td>$8</td>
+            </tr>
+            <tr>
+                <td>Address #5</td>
+                <td>3</td>
+                <td>$5</td>
+            </tr>
+    </table>
+    </div>
+</div>
+<div id="map">
+    <img src="http://maps.googleapis.com/maps/api/staticmap?center=Pittsburgh+PA&zoom=11&size=800x800&sensor=false">
+</div>
