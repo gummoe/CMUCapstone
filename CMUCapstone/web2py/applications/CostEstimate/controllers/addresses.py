@@ -27,6 +27,15 @@ def submit_addresses():
         session.duration_matrix = matrix.duration_matrix
         session.distance_matrix = matrix.distance_matrix
 
+        tsp_test = TSP(matrix.distance_array)
+        tsp_test.solve()
+
+        cluster_test = Cluster(matrix.distance_array)
+        cluster_test.calc_cluster()
+
+        cost_test = Cost(matrix.distance_array)
+        cost_test.cost_calculation()
+
         #Comment the line below to see same-page form submission results
         redirect(URL('form_response'))
     elif form.errors:

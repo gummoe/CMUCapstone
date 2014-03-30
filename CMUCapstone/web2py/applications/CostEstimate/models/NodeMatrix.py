@@ -9,6 +9,8 @@ class NodeMatrix(object):
         self.node_list = node_list
         self.duration_matrix = None
         self.distance_matrix = None
+        self.duration_array = None
+        self.distance_array = None
 
     def get_matrix(self):
         addresses = ""
@@ -19,7 +21,7 @@ class NodeMatrix(object):
 
         content = urllib2.urlopen(url).read()
         json_doc = json.loads(content)
-        print json_doc
+        #print json_doc
         address_rows = json_doc["rows"]
 
         duration_rows = []
@@ -35,4 +37,8 @@ class NodeMatrix(object):
             distance_rows.append(distance_list)
         self.duration_matrix = matrix(duration_rows)
         self.distance_matrix = matrix(distance_rows)
+        self.duration_array = duration_rows
+        self.distance_array = distance_rows
+        print "This is the duration array:"
+        print duration_rows
 

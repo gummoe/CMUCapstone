@@ -12,7 +12,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CMUCapstone$CMUCapstone.coverage" NAME="CMUCapstone Coverage Results" MODIFIED="1394122367503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web2py" />
+    <SUITE FILE_PATH="coverage/CMUCapstone$CMUCapstone.coverage" NAME="CMUCapstone Coverage Results" MODIFIED="1396215099084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web2py" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -26,10 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NodeMatrix.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NodeMatrix.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/models/NodeMatrix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="35" selection-start="186" selection-end="186" vertical-scroll-proportion="0.20114942" vertical-offset="0" max-vertical-offset="630">
+            <state line="13" column="0" selection-start="54" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cost.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/models/Cost.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="91" column="24" selection-start="4340" selection-end="4340" vertical-scroll-proportion="0.14096916" vertical-offset="1269" max-vertical-offset="1950">
               <folding />
             </state>
           </provider>
@@ -38,43 +47,27 @@
       <file leaf-file-name="addresses.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/controllers/addresses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="36" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1110">
+            <state line="29" column="13" selection-start="894" selection-end="899" vertical-scroll-proportion="-3.7818182" vertical-offset="227" max-vertical-offset="1245">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="submit_addresses.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/views/addresses/submit_addresses.html">
+      <file leaf-file-name="Cluster.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/models/Cluster.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="90" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="195">
-              <folding />
+            <state line="58" column="0" selection-start="2275" selection-end="2275" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Node.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/models/Node.py">
+      <file leaf-file-name="TSP.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/models/TSP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="38" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="495">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_response.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/views/addresses/form_response.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="825">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/static/css/global.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="25" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.0" vertical-offset="859" max-vertical-offset="1440">
+            <state line="39" column="33" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
@@ -99,19 +92,22 @@
         <option value="$PROJECT_DIR$/web2py/applications/CostEstimate/controllers/home.py" />
         <option value="$PROJECT_DIR$/web2py/applications/CostEstimate/views/modlayout.html" />
         <option value="$PROJECT_DIR$/web2py/applications/CostEstimate/views/home/about.html" />
-        <option value="$PROJECT_DIR$/web2py/applications/CostEstimate/controllers/addresses.py" />
         <option value="$PROJECT_DIR$/web2py/applications/CostEstimate/models/Node.py" />
-        <option value="$PROJECT_DIR$/web2py/applications/CostEstimate/models/NodeMatrix.py" />
         <option value="$PROJECT_DIR$/web2py/applications/CostEstimate/static/css/global.css" />
         <option value="$PROJECT_DIR$/web2py/applications/CostEstimate/views/addresses/submit_addresses.html" />
         <option value="$PROJECT_DIR$/web2py/applications/CostEstimate/views/addresses/form_response.html" />
+        <option value="$PROJECT_DIR$/web2py/applications/CostEstimate/models/TSP.py" />
+        <option value="$PROJECT_DIR$/web2py/applications/CostEstimate/models/NodeMatrix.py" />
+        <option value="$PROJECT_DIR$/web2py/applications/CostEstimate/models/Cluster.py" />
+        <option value="$PROJECT_DIR$/web2py/applications/CostEstimate/controllers/addresses.py" />
+        <option value="$PROJECT_DIR$/web2py/applications/CostEstimate/models/Cost.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1366" />
-    <option name="height" value="658" />
+    <option name="width" value="1920" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -209,58 +205,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CMUCapstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CMUCapstone" />
-              <option name="myItemType" value="com.jetbrains.web2py.projectView.Web2PyBaseDirNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CostEstimate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CMUCapstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CMUCapstone" />
-              <option name="myItemType" value="com.jetbrains.web2py.projectView.Web2PyBaseDirNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CostEstimate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -451,6 +395,23 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="Python.AppEngineServer" factoryName="App Engine server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CMUCapstone" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="host" value="127.0.0.1" />
+      <option name="browserUrl" value="" />
+      <option name="additionalOptions" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -466,9 +427,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -492,6 +450,22 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
+      <module name="" />
+      <option name="PORT" value="0" />
+      <option name="HOST" value="null" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list />
+        </option>
+      </PathMappingSettings>
+      <option name="REDIRECT_OUTPUT" value="true" />
+      <option name="SUSPEND_AFTER_CONNECT" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -584,7 +558,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1366" height="658" extended-state="0" />
+    <frame x="0" y="22" width="1920" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -592,19 +566,19 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22401172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22395833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.63232684" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18971428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -624,34 +598,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/models/NodeMatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="115" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/controllers/addresses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="36" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/views/addresses/submit_addresses.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="90" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/models/Node.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="38" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/views/addresses/form_response.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="0" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="825">
@@ -661,9 +607,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/static/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="25" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.0" vertical-offset="859" max-vertical-offset="1440">
-          <folding />
-        </state>
+        <state line="80" column="25" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.0" vertical-offset="859" max-vertical-offset="1440" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/controllers/addresses.py">
@@ -834,29 +778,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/models/menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2190" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/modules/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="847" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/controllers/default.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="7" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="1230" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/routes.example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="911" selection-end="911" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="645" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web2py/applications/routes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/views/default/index.html">
@@ -869,64 +793,110 @@
         <state line="21" column="0" selection-start="1182" selection-end="1251" vertical-scroll-proportion="0.08395522" vertical-offset="270" max-vertical-offset="2625" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/views/home/about.html">
+    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/static/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="110" selection-start="176" selection-end="176" vertical-scroll-proportion="0.05597015" vertical-offset="0" max-vertical-offset="675" />
+        <state line="80" column="25" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.0" vertical-offset="859" max-vertical-offset="1440" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/models/menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2190">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/controllers/home.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="85" selection-end="85" vertical-scroll-proportion="0.16071428" vertical-offset="0" max-vertical-offset="975" />
+        <state line="6" column="17" selection-start="85" selection-end="85" vertical-scroll-proportion="0.1682243" vertical-offset="0" max-vertical-offset="975" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/views/modlayout.html">
+    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/controllers/default.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="48" selection-start="688" selection-end="688" vertical-scroll-proportion="0.5597015" vertical-offset="0" max-vertical-offset="536" />
+        <state line="13" column="7" selection-start="552" selection-end="552" vertical-scroll-proportion="0.26542056" vertical-offset="53" max-vertical-offset="1230" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/controllers/appadmin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9795" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/views/home/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/views/home/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="95" selection-start="200" selection-end="200" vertical-scroll-proportion="0.08395522" vertical-offset="0" max-vertical-offset="536" />
+        <state line="2" column="58" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="135" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/models/Node.py">
+    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/routes.example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="38" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="22" column="0" selection-start="911" selection-end="911" vertical-scroll-proportion="0.6152344" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/static/css/global.css">
+    <entry file="file://$PROJECT_DIR$/web2py/applications/routes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="25" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.0" vertical-offset="859" max-vertical-offset="1440">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.087890625" vertical-offset="0" max-vertical-offset="512" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/controllers/addresses.py">
+    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/views/modlayout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="36" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
+        <state line="13" column="63" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="435" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/views/addresses/form_response.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="11" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="825">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/views/addresses/submit_addresses.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="90" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="195">
+        <state line="3" column="15" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="195" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/models/Node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/views/addresses/form_response.html">
+    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/models/TSP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="825">
+        <state line="39" column="33" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/models/NodeMatrix.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="35" selection-start="186" selection-end="186" vertical-scroll-proportion="0.20114942" vertical-offset="0" max-vertical-offset="630">
+        <state line="13" column="0" selection-start="54" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/models/Cluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="2275" selection-end="2275" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/controllers/addresses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="13" selection-start="894" selection-end="899" vertical-scroll-proportion="-3.7818182" vertical-offset="227" max-vertical-offset="1245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web2py/applications/CostEstimate/models/Cost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="24" selection-start="4340" selection-end="4340" vertical-scroll-proportion="0.14096916" vertical-offset="1269" max-vertical-offset="1950">
           <folding />
         </state>
       </provider>
